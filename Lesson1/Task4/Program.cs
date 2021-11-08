@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Task4
 {
-    /// <summary>
+    /// <summary> 
+    /// Автор - Моисеев Даниил
+    ///
     /// Написать программу обмена значениями двух переменных типа int без использования вспомогательных методов.
     /// </summary>
     class Program
