@@ -1,0 +1,7 @@
+H:\Study\GeekBrains\C#_Begin\Lesson First\Lesson1\Task1\bin\Debug\Task1.exe.config
+H:\Study\GeekBrains\C#_Begin\Lesson First\Lesson1\Task1\bin\Debug\Task1.exe
+H:\Study\GeekBrains\C#_Begin\Lesson First\Lesson1\Task1\bin\Debug\Task1.pdb
+H:\Study\GeekBrains\C#_Begin\Lesson First\Lesson1\Task1\obj\Debug\Task1.csproj.AssemblyReference.cache
+H:\Study\GeekBrains\C#_Begin\Lesson First\Lesson1\Task1\obj\Debug\Task1.csproj.CoreCompileInputs.cache
+H:\Study\GeekBrains\C#_Begin\Lesson First\Lesson1\Task1\obj\Debug\Task1.exe
+H:\Study\GeekBrains\C#_Begin\Lesson First\Lesson1\Task1\obj\Debug\Task1.pdb
