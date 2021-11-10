@@ -1,0 +1,6 @@
+H:\Study\GeekBrains\C#_Begin\Lesson First\Lesson1\Task4\bin\Debug\Task4.exe.config
+H:\Study\GeekBrains\C#_Begin\Lesson First\Lesson1\Task4\bin\Debug\Task4.exe
+H:\Study\GeekBrains\C#_Begin\Lesson First\Lesson1\Task4\bin\Debug\Task4.pdb
+H:\Study\GeekBrains\C#_Begin\Lesson First\Lesson1\Task4\obj\Debug\Task4.csproj.CoreCompileInputs.cache
+H:\Study\GeekBrains\C#_Begin\Lesson First\Lesson1\Task4\obj\Debug\Task4.exe
+H:\Study\GeekBrains\C#_Begin\Lesson First\Lesson1\Task4\obj\Debug\Task4.pdb
