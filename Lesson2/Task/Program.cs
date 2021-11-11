@@ -9,6 +9,9 @@ using Task3;
 
 namespace Task
 {
+    /// <summary>
+    /// Автор - Моисеев Даниил
+    /// </summary>
     class Program
     {
         static void Main(string[] args)
@@ -16,6 +19,7 @@ namespace Task
             int taskNumber;
             do
             {
+                Console.WriteLine("Complited tasks for lesson 2");
                 Console.WriteLine("1)Task1");
                 Console.WriteLine("2)Task2");
                 Console.WriteLine("3)Task3");
