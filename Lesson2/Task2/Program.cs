@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Task2
 {
+    /// <summary>
+    /// 2. Написать метод подсчета количества цифр числа.
+    /// </summary>
     class Program
     {
         static void Main(string[] args)

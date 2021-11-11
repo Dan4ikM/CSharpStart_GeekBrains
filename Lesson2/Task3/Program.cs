@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace Task3
 {
+    /// <summary>
+    /// 3. С клавиатуры вводятся числа, пока не будет введен 0. 
+    /// Подсчитать сумму всех нечетных положительных чисел.
+    /// </summary>
     class Program
     {
         static void Main(string[] args)
