@@ -11,9 +11,9 @@ namespace Task7
     /// a) Разработать рекурсивный метод, который выводит на экран числа от a до b(a<b).
     /// б) * Разработать рекурсивный метод, который считает сумму чисел от a до b.
     /// </summary>
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Console.WriteLine("Program print numbers from a to b (if a<b) and counts the sum of numbers from a to b");
             Console.Write("a:");

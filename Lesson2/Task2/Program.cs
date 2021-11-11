@@ -9,9 +9,9 @@ namespace Task2
     /// <summary>
     /// 2. Написать метод подсчета количества цифр числа.
     /// </summary>
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Console.Write("Program counting the number of digits of a number.\nEnter numbers:");
             int number = int.Parse(Console.ReadLine());

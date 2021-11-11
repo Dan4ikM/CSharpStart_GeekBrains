@@ -10,9 +10,9 @@ namespace Task3
     /// 3. С клавиатуры вводятся числа, пока не будет введен 0. 
     /// Подсчитать сумму всех нечетных положительных чисел.
     /// </summary>
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Console.WriteLine("Program calculate the sum of all odd positive numbers.\nEnter numbers, when need to stop enter zero:");
             int number = 0;

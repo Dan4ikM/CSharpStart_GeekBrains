@@ -11,9 +11,9 @@ namespace Task5
      * нужно ли человеку похудеть, набрать вес или всё в норме.
      * б) *Рассчитать, на сколько кг похудеть или сколько кг набрать для нормализации веса.
      */
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             //Enter data
             float height;

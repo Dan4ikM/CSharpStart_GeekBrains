@@ -13,9 +13,9 @@ namespace Task4
     /// Используя метод проверки логина и пароля, написать программу: пользователь вводит логин и пароль, программа пропускает его дальше или не пропускает. 
     /// С помощью цикла do while ограничить ввод пароля тремя попытками.
     /// </summary>
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             if (Authorization())
             {

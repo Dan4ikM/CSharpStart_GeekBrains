@@ -11,10 +11,11 @@ namespace Task6
     /// «Хорошим» называется число, которое делится на сумму своих цифр. 
     /// Реализовать подсчёт времени выполнения программы, используя структуру DateTime.
     /// </summary>
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            Console.WriteLine("Program counts the number of Harshad numbers in the range from 1 to 1,000,000,000.\nAnd writes the running time.");
             int count = 0;
             DateTime start = DateTime.Now;
             for (int i = 1; i < Math.Pow(10,9); i++)

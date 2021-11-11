@@ -9,9 +9,9 @@ namespace Task1
     /// <summary>
     /// 1. Написать метод, возвращающий минимальное из трёх чисел.
     /// </summary>
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Console.WriteLine("Program find minimum of three numbers\nEnter three numbers-");
             Console.Write("First number:");
