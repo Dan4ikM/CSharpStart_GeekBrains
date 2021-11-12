@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2A9F66AD-B964-4FA0-9F9F-99516E824E3E}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Task</RootNamespace>
+    <AssemblyName>Task</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Task1\Task1.csproj">
+      <Project>{7599b9eb-f467-4727-a15b-9533a9d6a4f3}</Project>
+      <Name>Task1</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Task2\Task2.csproj">
+      <Project>{6966fa7c-1072-464c-af16-adfa0376e16e}</Project>
+      <Name>Task2</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Task3\Task3.csproj">
+      <Project>{3725902f-fa5c-4a1e-b735-3cebf15adba9}</Project>
+      <Name>Task3</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Task4\Task4.csproj">
+      <Project>{0453416c-57b0-40f2-aa43-26177be25cd7}</Project>
+      <Name>Task4</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Task5\Task5.csproj">
+      <Project>{09702e72-243c-4bcf-85b3-dd5c878da7bb}</Project>
+      <Name>Task5</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Task6\Task6.csproj">
+      <Project>{92699ed3-7841-428c-bd3b-186a3a0adc06}</Project>
+      <Name>Task6</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Task7\Task7.csproj">
+      <Project>{167f0210-0147-4c64-becb-4655961a39de}</Project>
+      <Name>Task7</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
