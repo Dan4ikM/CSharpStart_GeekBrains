@@ -88,9 +88,9 @@ namespace Task1bc
 
         public static Complex ConsoleEnter()
         {
-            double newRe = EnterRealNumber("Re");
+            double newRe = EnterRealNumber("Re:");
 
-            double newIm = EnterRealNumber("Im");
+            double newIm = EnterRealNumber("Im:");
 
             return new Complex(newRe, newIm);
         }
@@ -151,6 +151,7 @@ namespace Task1bc
 
                 Console.WriteLine("Press any key to continue...");
                 Console.ReadKey();
+                Console.Clear();
 
             } while (true);
         }
