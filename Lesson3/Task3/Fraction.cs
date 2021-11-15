@@ -53,10 +53,21 @@ namespace Task3
         public static Fraction ConsoleEnter()
         {
             int newNumerator = EnterInteger("Numerator:");
+            while (true)
+            {
+                try
+                {
+                    int newDenominator = EnterInteger("Denominator:");
 
-            int newDenominator = EnterInteger("Denominator:");
-
-            return TryReduce(new Fraction(newNumerator, newDenominator));
+                    Fraction fraction = new Fraction(newNumerator, newDenominator);
+                    return TryReduce(fraction);
+                }
+                catch (ArgumentException ex)
+                {
+                    Console.WriteLine(ex.Message);
+                    Console.WriteLine("Retry enter again...");
+                }
+            }
         }
 
         public static Fraction TryReduce(Fraction fraction)
