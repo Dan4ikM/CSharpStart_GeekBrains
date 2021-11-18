@@ -18,11 +18,12 @@ namespace Task1
     {
         static void Main(string[] args)
         {
+            //generate start array
             int[] arr = new int[20];
 
             arr = GenerateElements(arr);
 
-            PrintArray(arr);
+            //program start here
             int count = CountPairXORModThree(arr);
 
             Console.WriteLine(count);
