@@ -5,3 +5,4 @@ H:\Study\GeekBrains\CSharpStart_GeekBrains\Lesson4\Task2\obj\Debug\Task2.csproj.
 H:\Study\GeekBrains\CSharpStart_GeekBrains\Lesson4\Task2\obj\Debug\Task2.csproj.CoreCompileInputs.cache
 H:\Study\GeekBrains\CSharpStart_GeekBrains\Lesson4\Task2\obj\Debug\Task2.exe
 H:\Study\GeekBrains\CSharpStart_GeekBrains\Lesson4\Task2\obj\Debug\Task2.pdb
+H:\Study\GeekBrains\CSharpStart_GeekBrains\Lesson4\Task2\bin\Debug\ArrayList.txt

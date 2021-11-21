@@ -21,7 +21,8 @@ namespace Task2
             //Сделал просто. Можно конечно всё обернуть через ручной ввод через консоль массива или имени файла.
             //Если времени хватит - сделаю
             //StaticClass.TaskFromArray(arr);
-            StaticClass.TaskFromFile("ArrayList.txt");
+            string fileName = AppDomain.CurrentDomain.BaseDirectory + "ArrayList.txt";
+            StaticClass.TaskFromFile(fileName);
         }
     }
 }

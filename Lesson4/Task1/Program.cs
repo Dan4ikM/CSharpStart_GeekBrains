@@ -46,7 +46,7 @@ namespace Task1
                     count++;
                 }
 
-                Console.WriteLine("{0} {1} {2}", arr[i] % 3 == 0, arr[i + 1] % 3 == 0, count);
+                //Console.WriteLine("{0} {1} {2}", arr[i] % 3 == 0, arr[i + 1] % 3 == 0, count);
             }
 
             return count;
