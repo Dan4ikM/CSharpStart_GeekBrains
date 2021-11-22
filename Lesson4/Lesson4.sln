@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyArrayDLL", "MyArray\MyArr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task4", "Task4\Task4.csproj", "{1CF672B1-6574-45DA-8C09-E36845A55AF1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task5", "Task5\Task5.csproj", "{3D11455E-20E5-4E13-985D-2D4060D7BF4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTwoDimensionalArrayDLL", "MyTwoDimensionalArrayDLL\MyTwoDimensionalArrayDLL.csproj", "{25586D25-FEA6-4D20-A487-7D34E8F6496E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{1CF672B1-6574-45DA-8C09-E36845A55AF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CF672B1-6574-45DA-8C09-E36845A55AF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CF672B1-6574-45DA-8C09-E36845A55AF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D11455E-20E5-4E13-985D-2D4060D7BF4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D11455E-20E5-4E13-985D-2D4060D7BF4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D11455E-20E5-4E13-985D-2D4060D7BF4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D11455E-20E5-4E13-985D-2D4060D7BF4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25586D25-FEA6-4D20-A487-7D34E8F6496E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25586D25-FEA6-4D20-A487-7D34E8F6496E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25586D25-FEA6-4D20-A487-7D34E8F6496E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25586D25-FEA6-4D20-A487-7D34E8F6496E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

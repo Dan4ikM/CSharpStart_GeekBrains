@@ -5,7 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyArrayDLL {
+namespace MyArrayDLL 
+{
     public class MyArray
     {
         #region Fields

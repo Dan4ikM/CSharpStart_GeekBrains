@@ -3,3 +3,4 @@ H:\Study\GeekBrains\CSharpStart_GeekBrains\Lesson4\MyArray\bin\Debug\MyArray.pdb
 H:\Study\GeekBrains\CSharpStart_GeekBrains\Lesson4\MyArray\obj\Debug\MyArrayDLL.csproj.CoreCompileInputs.cache
 H:\Study\GeekBrains\CSharpStart_GeekBrains\Lesson4\MyArray\obj\Debug\MyArray.dll
 H:\Study\GeekBrains\CSharpStart_GeekBrains\Lesson4\MyArray\obj\Debug\MyArray.pdb
+H:\Study\GeekBrains\CSharpStart_GeekBrains\Lesson4\MyArray\obj\Debug\MyArrayDLL.csproj.AssemblyReference.cache

@@ -1,0 +1,10 @@
+H:\Study\GeekBrains\CSharpStart_GeekBrains\Lesson4\Task5\bin\Debug\Task5.exe.config
+H:\Study\GeekBrains\CSharpStart_GeekBrains\Lesson4\Task5\bin\Debug\Task5.exe
+H:\Study\GeekBrains\CSharpStart_GeekBrains\Lesson4\Task5\bin\Debug\Task5.pdb
+H:\Study\GeekBrains\CSharpStart_GeekBrains\Lesson4\Task5\obj\Debug\Task5.csproj.AssemblyReference.cache
+H:\Study\GeekBrains\CSharpStart_GeekBrains\Lesson4\Task5\obj\Debug\Task5.csproj.CoreCompileInputs.cache
+H:\Study\GeekBrains\CSharpStart_GeekBrains\Lesson4\Task5\obj\Debug\Task5.exe
+H:\Study\GeekBrains\CSharpStart_GeekBrains\Lesson4\Task5\obj\Debug\Task5.pdb
+H:\Study\GeekBrains\CSharpStart_GeekBrains\Lesson4\Task5\bin\Debug\MyTwoDimensionalArrayDLL.dll
+H:\Study\GeekBrains\CSharpStart_GeekBrains\Lesson4\Task5\bin\Debug\MyTwoDimensionalArrayDLL.pdb
+H:\Study\GeekBrains\CSharpStart_GeekBrains\Lesson4\Task5\obj\Debug\Task5.csproj.CopyComplete
