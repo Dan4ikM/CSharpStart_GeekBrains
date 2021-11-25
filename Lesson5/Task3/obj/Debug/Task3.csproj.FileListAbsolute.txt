@@ -1,0 +1,6 @@
+H:\Study\GeekBrains\CSharpStart_GeekBrains\Lesson5\Task3\bin\Debug\Task3.exe.config
+H:\Study\GeekBrains\CSharpStart_GeekBrains\Lesson5\Task3\bin\Debug\Task3.exe
+H:\Study\GeekBrains\CSharpStart_GeekBrains\Lesson5\Task3\bin\Debug\Task3.pdb
+H:\Study\GeekBrains\CSharpStart_GeekBrains\Lesson5\Task3\obj\Debug\Task3.csproj.CoreCompileInputs.cache
+H:\Study\GeekBrains\CSharpStart_GeekBrains\Lesson5\Task3\obj\Debug\Task3.exe
+H:\Study\GeekBrains\CSharpStart_GeekBrains\Lesson5\Task3\obj\Debug\Task3.pdb

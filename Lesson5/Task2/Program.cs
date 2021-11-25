@@ -29,6 +29,8 @@ namespace Task2
             }
 
             Console.WriteLine(Message.FindLongestWord(message));
+
+            Console.WriteLine(Message.NewStringWithLongestWords(message));
         }
     }
 
@@ -61,7 +63,11 @@ namespace Task2
             }
             return remainingWords.ToArray();
         }
-
+        /// <summary>
+        /// Находит первое самое длинное слово
+        /// </summary>
+        /// <param name="message"></param>
+        /// <returns></returns>
         public static string FindLongestWord(string message)
         {
             string[] words = message.Split(separators, StringSplitOptions.RemoveEmptyEntries);
@@ -72,6 +78,42 @@ namespace Task2
                     longestWord = word;
             }
             return longestWord;
+        }
+
+        public static string NewStringWithLongestWords(string message)
+        {
+            List<string> longestWords = FindAllLongestWords(message);
+
+            StringBuilder longestWordsString = new StringBuilder();
+
+            foreach (string word in longestWords)
+            {
+                longestWordsString.Append(word + " ");
+            }
+
+            return longestWordsString.ToString();
+        }
+
+        public static List<string> FindAllLongestWords(string message)
+        {
+            string[] words = message.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            List<string> longestWords = new List<string>();
+            int maxWordLength = 0;
+            foreach (string word in words)
+            {
+                if (maxWordLength < word.Length)
+                {
+                    maxWordLength = word.Length;
+                    longestWords.Clear();
+                    longestWords.Add(word);
+                }
+                else if (maxWordLength == word.Length)
+                {
+                    longestWords.Add(word);
+                }
+            }
+
+            return longestWords;
         }
     }
 }
