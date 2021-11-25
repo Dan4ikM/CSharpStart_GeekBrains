@@ -20,30 +20,21 @@ namespace Task2
             string message = "За окном потоп, а я ем торт!";
 
             Message.PrintWordsLengthLess(message, 4);
+
+            string[] words = Message.DeleteAllWordEndsWithChar(message, 'м');
+
+            foreach (string word in words)
+            {
+                Console.WriteLine(word);
+            }
+
+            Console.WriteLine(Message.FindLongestWord(message));
         }
     }
 
     class Message
     {
         private static string[] separators = { ",", ".", "!", "?", ";", ":", " " };
-
-        public static void PrintWords(string message)
-        {
-            string[] words = message.Split(separators, StringSplitOptions.RemoveEmptyEntries);
-            for (int i = 0; i < words.Length; i++)
-            {
-                //string s = words[i];
-                //int l =  s.Length;
-
-                string s = words[i];
-                char firstElement = s[0];
-                char lastElement = s[s.Length - 1];
-
-                if (words[i].Length >= 3 && words[i][0] == words[i][words[i].Length - 1])
-                    Console.WriteLine(words[i]);
-            }
-
-        }
 
         public static void PrintWordsLengthLess(string message, int lengthMax)
         {
@@ -57,5 +48,30 @@ namespace Task2
             }
         }
 
+        public static string[] DeleteAllWordEndsWithChar(string message, char c)
+        {
+            string[] words = message.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            List<string> remainingWords = new List<string>();
+            foreach (string word in words)
+            {
+                if (word[word.Length-1] != c)
+                {
+                    remainingWords.Add(word);
+                }
+            }
+            return remainingWords.ToArray();
+        }
+
+        public static string FindLongestWord(string message)
+        {
+            string[] words = message.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            string longestWord = "";
+            foreach (string word in words)
+            {
+                if (word.Length > longestWord.Length)
+                    longestWord = word;
+            }
+            return longestWord;
+        }
     }
 }
