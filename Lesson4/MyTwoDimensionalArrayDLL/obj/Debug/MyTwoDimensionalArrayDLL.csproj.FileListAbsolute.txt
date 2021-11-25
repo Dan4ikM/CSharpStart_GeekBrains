@@ -1,0 +1,5 @@
+H:\Study\GeekBrains\CSharpStart_GeekBrains\Lesson4\MyTwoDimensionalArrayDLL\bin\Debug\MyTwoDimensionalArrayDLL.dll
+H:\Study\GeekBrains\CSharpStart_GeekBrains\Lesson4\MyTwoDimensionalArrayDLL\bin\Debug\MyTwoDimensionalArrayDLL.pdb
+H:\Study\GeekBrains\CSharpStart_GeekBrains\Lesson4\MyTwoDimensionalArrayDLL\obj\Debug\MyTwoDimensionalArrayDLL.csproj.CoreCompileInputs.cache
+H:\Study\GeekBrains\CSharpStart_GeekBrains\Lesson4\MyTwoDimensionalArrayDLL\obj\Debug\MyTwoDimensionalArrayDLL.dll
+H:\Study\GeekBrains\CSharpStart_GeekBrains\Lesson4\MyTwoDimensionalArrayDLL\obj\Debug\MyTwoDimensionalArrayDLL.pdb
