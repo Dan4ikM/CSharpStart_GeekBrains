@@ -23,6 +23,7 @@ namespace Task1
     {
         static void Main(string[] args)
         {
+            Console.Write("Enter login:");
             string login = Console.ReadLine();
 
             if (IsCorrectLogin(login.ToCharArray()))
@@ -34,6 +35,7 @@ namespace Task1
                 Console.WriteLine("Login is incorrect!");
             }
 
+            Console.Write("Enter login(reget):");
             login = Console.ReadLine();
 
             Regex regexLogin = new Regex("^[A-Za-z]{1}[A-Za-z0-9]{1,9}$"); 
