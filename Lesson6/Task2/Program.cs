@@ -45,21 +45,21 @@ namespace Task2
             bw.Close();
             fs.Close();
         }
-        public static double Load(string fileName)
+        public static double[] Load(string fileName, out double min)
         {
             FileStream fs = new FileStream(fileName, FileMode.Open, FileAccess.Read);
             BinaryReader bw = new BinaryReader(fs);
-            double min = double.MaxValue;
-            double d;
+            min = double.MaxValue;
+            double[] values = new double[fs.Length / sizeof(double)];
             for (int i = 0; i < fs.Length / sizeof(double); i++)
             {
                 // Считываем значение и переходим к следующему
-                d = bw.ReadDouble();
-                if (d < min) min = d;
+                values[i] = bw.ReadDouble();
+                if (values[i] < min) min = values[i];
             }
             bw.Close();
             fs.Close();
-            return min;
+            return values;
         }
         static void Main(string[] args)
         {
@@ -72,14 +72,18 @@ namespace Task2
                     return;
                 }
 
+                int xMin = EnterNumber("Enter min x");
 
-                Console.Write("Enter min x:");
-                int xMin = EnterNumber();
-                Console.Write("Enter max x:");
-                int xMax = EnterNumber();
+                int xMax = EnterNumber("Enter max x:");
 
                 SaveFunc("data.bin", UsingFunction, xMin, xMax, 0.5);
-                Console.WriteLine(Load("data.bin"));
+                double[] values = Load("data.bin", out double min);
+                foreach (double d in values)
+                {
+                    Console.Write(d + " ");
+                }
+                Console.WriteLine();
+                Console.WriteLine($"Minimun function is {min}");
 
                 Console.WriteLine("Press any key to continue...");
                 Console.ReadKey();
@@ -88,11 +92,11 @@ namespace Task2
 
         
 
-        public static int EnterNumber()
+        public static int EnterNumber(string message = "Enter number:")
         {
             do
             {
-                Console.Write("Enter number:");
+                Console.Write(message);
                 bool flag = int.TryParse(Console.ReadLine(), out int number);
                 if (flag)
                 {
