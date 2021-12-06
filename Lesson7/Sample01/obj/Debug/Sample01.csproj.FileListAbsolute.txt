@@ -1,0 +1,14 @@
+C:\sources\gb\charp#1\sandbox\Lesson7\Sample01\bin\Debug\Sample01.exe.config
+C:\sources\gb\charp#1\sandbox\Lesson7\Sample01\bin\Debug\Sample01.exe
+C:\sources\gb\charp#1\sandbox\Lesson7\Sample01\bin\Debug\Sample01.pdb
+C:\sources\gb\charp#1\sandbox\Lesson7\Sample01\obj\Debug\Sample01.csprojAssemblyReference.cache
+C:\sources\gb\charp#1\sandbox\Lesson7\Sample01\obj\Debug\Sample01.csproj.CoreCompileInputs.cache
+C:\sources\gb\charp#1\sandbox\Lesson7\Sample01\obj\Debug\Sample01.exe
+C:\sources\gb\charp#1\sandbox\Lesson7\Sample01\obj\Debug\Sample01.pdb
+H:\Study\GeekBrains\OnLesson\Lesson7\Sample01\bin\Debug\Sample01.exe.config
+H:\Study\GeekBrains\OnLesson\Lesson7\Sample01\bin\Debug\Sample01.exe
+H:\Study\GeekBrains\OnLesson\Lesson7\Sample01\bin\Debug\Sample01.pdb
+H:\Study\GeekBrains\OnLesson\Lesson7\Sample01\obj\Debug\Sample01.csprojAssemblyReference.cache
+H:\Study\GeekBrains\OnLesson\Lesson7\Sample01\obj\Debug\Sample01.csproj.CoreCompileInputs.cache
+H:\Study\GeekBrains\OnLesson\Lesson7\Sample01\obj\Debug\Sample01.exe
+H:\Study\GeekBrains\OnLesson\Lesson7\Sample01\obj\Debug\Sample01.pdb
