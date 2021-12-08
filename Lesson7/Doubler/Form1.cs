@@ -40,7 +40,7 @@ namespace Doubler
 
         private void btnRestart_Click(object sender, EventArgs e)
         {
-            UpdateGameState(userNumber *= 0, random.Next(50));
+            UpdateGameState(userNumber *= 0, random.Next(1,50));
         }
 
         private void btnPlus_Click(object sender, EventArgs e)
@@ -97,7 +97,7 @@ namespace Doubler
         private bool CanMove()
         {
             //Check Minimun Moves
-            if (minMovesCount < currentMovesCount)
+            if (minMovesCount <= currentMovesCount)
             {
                 MessageBox.Show("Вы сделали слишком много ходов!", "Удвоитель",
                     MessageBoxButtons.OK, MessageBoxIcon.Stop);
@@ -154,9 +154,12 @@ namespace Doubler
                 { 
                     --userNumber; 
                 }
+
+                --currentMovesCount;
+                UpdateGameState(userNumber);
+                --currentMovesCount;
+                //Потому что добавляю один ход внутри метода
             }
-            --currentMovesCount;
-            UpdateGameState(userNumber);
         }
     }
 }
